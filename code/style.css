@@ -1,0 +1,101 @@
+button {
+  display: block;
+  background-color: #eb6440;
+  border-radius: 0.3em;
+  box-shadow: inset -2px -3px 5px #e37527;
+  width: 300px;
+  height: 60px;
+  border: none;
+  margin: 30px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: crimson;
+}
+
+h1 {
+  color: #497174;
+}
+
+body {
+  background-color: #d6e4e5;
+}
+
+/* style for the options */
+#selectmeanue {
+  display: none;
+}
+/* restaurant part */
+#viewrestaurant {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.filter {
+  background-color: #497174;
+  color: aliceblue;
+  height: 100vh;
+  top: 0px;
+  text-align: center;
+}
+
+.submit {
+  width: 250px;
+  height: 30px;
+  margin: 30px;
+  background-color: #1d3557;
+  color: #9ecad0;
+  border: 2px solid #9ecad0;
+}
+
+.submit:hover {
+  background-color: #11243f;
+}
+
+.back {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+/* delivery part */
+
+#delivery {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#promotion {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#update {
+  /* float:left; width: 20% */
+  display: grid;
+  grid-template-columns: auto, auto;
+}
+.user #update {
+  /* float:left; width: 20% */
+  display: grid;
+  grid-template-columns: 30%, 70%;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #eb6440;
+}
+
+.result {
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+table {
+  color:orange;
+  font-weight: bold;
+  font-size: 20px;
+}
